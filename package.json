@@ -35,7 +35,8 @@
     "@dword-design/tester": "^1.2.1",
     "@dword-design/tester-plugin-puppeteer": "^1.0.3",
     "fs-extra": "^9.1.0",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "with-local-tmp-dir": "^2.2.16"
   },
   "publishConfig": {
     "access": "public"
