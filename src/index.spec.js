@@ -33,6 +33,7 @@ export default tester(
 
         `
         )
+
         const nuxt = new Nuxt({
           createRequire: 'native',
           dev: false,
