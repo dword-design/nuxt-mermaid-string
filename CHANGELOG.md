@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/nuxt-mermaid-string/compare/v1.0.2...v1.0.3) (2021-03-31)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#4](https://github.com/dword-design/nuxt-mermaid-string/issues/4)) ([1144bbd](https://github.com/dword-design/nuxt-mermaid-string/commit/1144bbdbd08c97f1adb41117665bdb5b6299cd89))
+
 ## [1.0.2](https://github.com/dword-design/nuxt-mermaid-string/compare/v1.0.1...v1.0.2) (2021-03-23)
 
 
