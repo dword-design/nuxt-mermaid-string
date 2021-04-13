@@ -50,7 +50,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-A Nuxt.js module exposing a component that turns a Mermaid string into a diagram.
+Embed a Mermaid diagram in a Nuxt.js app by providing its diagram string.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
@@ -64,6 +64,38 @@ $ npm install nuxt-mermaid-string
 $ yarn add nuxt-mermaid-string
 ```
 <!-- /INSTALL -->
+
+## Usage
+
+Add the module to your `nuxt.config.js`:
+
+```js
+export default {
+  modules: [
+    'nuxt-mermaid-string',
+  ],
+}
+```
+
+Now you can add the `vue-mermaid-string` component to your Nuxt app like this:
+
+```html
+<template>
+  <client-only>
+    <vue-mermaid-string :value="diagram" />
+  </client-only>
+</template>
+```
+
+```js
+<script>
+export default {
+  computed: {
+    diagram: () => 'graph TD\n    A --> B',
+  },
+}
+</script>
+```
 
 <!-- LICENSE/ -->
 ## Contribute

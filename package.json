@@ -1,7 +1,7 @@
 {
   "name": "nuxt-mermaid-string",
   "version": "1.0.4",
-  "description": "A Nuxt.js module exposing a component that turns a Mermaid string into a diagram.",
+  "description": "Embed a Mermaid diagram in a Nuxt.js app by providing its diagram string.",
   "keywords": [
     "nuxt"
   ],
