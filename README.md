@@ -81,9 +81,7 @@ Now you can add the `vue-mermaid-string` component to your Nuxt app like this:
 
 ```html
 <template>
-  <client-only>
-    <vue-mermaid-string :value="diagram" />
-  </client-only>
+  <vue-mermaid-string :value="diagram" />
 </template>
 ```
 

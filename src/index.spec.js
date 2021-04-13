@@ -13,9 +13,7 @@ export default tester(
           'pages/index.vue',
           endent`
           <template>
-            <client-only>
-              <vue-mermaid-string class="foo" :value="diagram" />
-            </client-only>
+            <vue-mermaid-string class="foo" :value="diagram" />
           </template>
 
           <script>
@@ -48,7 +46,7 @@ export default tester(
             await this.page.screenshot({ fullPage: true })
           ).toMatchImageSnapshot(this)
         } finally {
-          nuxt.close()
+          await nuxt.close()
         }
       })
     },
