@@ -26,7 +26,7 @@
   "dependencies": {
     "@dword-design/nuxt-push-plugins": "^1.0.10",
     "vue": "^2.6.12",
-    "vue-mermaid-string": "^1.0.0"
+    "vue-mermaid-string": "^1.0.3"
   },
   "devDependencies": {
     "@dword-design/base": "^7.8.4",
