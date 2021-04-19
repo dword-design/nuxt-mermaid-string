@@ -24,7 +24,7 @@
     "test:raw": "base test:raw"
   },
   "dependencies": {
-    "@dword-design/nuxt-push-plugins": "^1.0.10",
+    "nuxt-push-plugins": "^1.0.16",
     "vue": "^2.6.12",
     "vue-mermaid-string": "^1.0.0"
   },
