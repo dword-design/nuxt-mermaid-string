@@ -43,5 +43,6 @@
   },
   "baseConfig": {
     "testInContainer": true
-  }
+  },
+  "homepage": ""
 }
