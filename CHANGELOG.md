@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/dword-design/nuxt-mermaid-string/compare/v1.0.7...v1.0.8) (2021-04-26)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v3 ([#19](https://github.com/dword-design/nuxt-mermaid-string/issues/19)) ([b7df4f0](https://github.com/dword-design/nuxt-mermaid-string/commit/b7df4f0768287e80d6f4dc21f733b7cd5b4ab3ea))
+
 ## [1.0.7](https://github.com/dword-design/nuxt-mermaid-string/compare/v1.0.6...v1.0.7) (2021-04-19)
 
 
