@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/dword-design/nuxt-mermaid-string/compare/v1.0.8...v1.0.9) (2021-04-26)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v4 ([#21](https://github.com/dword-design/nuxt-mermaid-string/issues/21)) ([83aa037](https://github.com/dword-design/nuxt-mermaid-string/commit/83aa037d8e17911359d96a3cd9a5f9da15125db5))
+
 ## [1.0.8](https://github.com/dword-design/nuxt-mermaid-string/compare/v1.0.7...v1.0.8) (2021-04-26)
 
 
