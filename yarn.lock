@@ -13269,10 +13269,10 @@ vue-loader@^15.9.6:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-mermaid-string@^1.0.0:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/vue-mermaid-string/-/vue-mermaid-string-1.0.5.tgz#fab8136141cb71670d23a9724b1d273c67ed1e66"
-  integrity sha512-RHZA4kCzseFi0snWMNg7oRKNy/BsRAiJaTSxkEoTAopgMRPvyk5MMH0iMekq+FxgOdyDopmTmHv6bmH7bf9/bQ==
+vue-mermaid-string@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/vue-mermaid-string/-/vue-mermaid-string-2.0.0.tgz#791b65cc8d341ad8c9246e09c66a402b0c65e426"
+  integrity sha512-XCFnAN6QW5v+aGwZlZs4KjlQc93LAOQhEMVodseNRUtEaaSwRWBQv09FoFqiqlhQ6tqoEnqVzG764jtmp1eS4A==
   dependencies:
     mermaid "^8.8.3"
 
