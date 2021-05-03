@@ -34,7 +34,7 @@
     "@dword-design/puppeteer": "^4.0.0",
     "@dword-design/tester": "^1.2.1",
     "@dword-design/tester-plugin-puppeteer": "^2.0.0",
-    "fs-extra": "^9.1.0",
+    "fs-extra": "^10.0.0",
     "nuxt": "^2.15.3",
     "with-local-tmp-dir": "^3.0.0"
   },
