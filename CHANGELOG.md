@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/nuxt-mermaid-string/compare/v1.0.9...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#23](https://github.com/dword-design/nuxt-mermaid-string/issues/23)) ([c8eb2b6](https://github.com/dword-design/nuxt-mermaid-string/commit/c8eb2b623425b1395172dc3b2cd82a552c4d9fce))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.9](https://github.com/dword-design/nuxt-mermaid-string/compare/v1.0.8...v1.0.9) (2021-04-26)
 
 
