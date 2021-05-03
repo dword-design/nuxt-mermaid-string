@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/dword-design/nuxt-mermaid-string/compare/v2.0.0...v2.0.1) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency vue-mermaid-string to v2 ([#24](https://github.com/dword-design/nuxt-mermaid-string/issues/24)) ([dac01f5](https://github.com/dword-design/nuxt-mermaid-string/commit/dac01f52fdd3895aced6ca80368835b1fec2cf6b))
+
 # [2.0.0](https://github.com/dword-design/nuxt-mermaid-string/compare/v1.0.9...v2.0.0) (2021-05-03)
 
 
