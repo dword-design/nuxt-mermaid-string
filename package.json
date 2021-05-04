@@ -1,6 +1,6 @@
 {
   "name": "nuxt-mermaid-string",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Embed a Mermaid diagram in a Nuxt.js app by providing its diagram string.",
   "keywords": [
     "nuxt"

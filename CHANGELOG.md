@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/dword-design/nuxt-mermaid-string/compare/v2.0.2...v2.0.3) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester to v2 ([#27](https://github.com/dword-design/nuxt-mermaid-string/issues/27)) ([23ba6fa](https://github.com/dword-design/nuxt-mermaid-string/commit/23ba6fa78d5873322d8f129849637b1bda4aa0f2))
+
 ## [2.0.2](https://github.com/dword-design/nuxt-mermaid-string/compare/v2.0.1...v2.0.2) (2021-05-04)
 
 
