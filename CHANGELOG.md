@@ -1,3 +1,14 @@
+## [2.0.2](https://github.com/dword-design/nuxt-mermaid-string/compare/v2.0.1...v2.0.2) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#25](https://github.com/dword-design/nuxt-mermaid-string/issues/25)) ([c68a997](https://github.com/dword-design/nuxt-mermaid-string/commit/c68a99775116fe5427c3a525d8117ee47e5cc716))
+* update dependency @dword-design/puppeteer to v5 ([#26](https://github.com/dword-design/nuxt-mermaid-string/issues/26)) ([cb710b4](https://github.com/dword-design/nuxt-mermaid-string/commit/cb710b48ddee4c99f38a299b4a293b1018d23819))
+* update dependency fs-extra to v10 ([#28](https://github.com/dword-design/nuxt-mermaid-string/issues/28)) ([7e26476](https://github.com/dword-design/nuxt-mermaid-string/commit/7e26476fb64ed91e9c0d875875ee4e2e96ba1a5a))
+* update dependency nuxt-push-plugins to v2 ([#29](https://github.com/dword-design/nuxt-mermaid-string/issues/29)) ([8fa1178](https://github.com/dword-design/nuxt-mermaid-string/commit/8fa11780053b4baee14328784cf8b405d6a4732d))
+* update dependency with-local-tmp-dir to v4 ([#30](https://github.com/dword-design/nuxt-mermaid-string/issues/30)) ([4790c1e](https://github.com/dword-design/nuxt-mermaid-string/commit/4790c1e1219403dcc0630261100a9703fc952109))
+
 ## [2.0.1](https://github.com/dword-design/nuxt-mermaid-string/compare/v2.0.0...v2.0.1) (2021-05-03)
 
 
