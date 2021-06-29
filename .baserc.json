@@ -1,0 +1,10 @@
+{
+  "seeAlso": [
+    { "repository": "vue-mermaid-string", "description": "A Vue.js component that turns a Mermaid string into a diagram." },
+    { "repository": "nuxt-mail", "description": "Adds email sending capability to a Nuxt.js app. Adds a server route, an injected variable, and uses nodemailer to send emails." },
+    { "repository": "nuxt-route-meta", "description": "Adds Nuxt page data to route meta at build time." },
+    { "repository": "nuxt-modernizr", "description": "Adds a Modernizr build to your Nuxt.js app." },
+    { "repository": "nuxt-content-git", "description": "Additional module for @nuxt/content that replaces or adds createdAt and updatedAt dates based on the git history." }
+  ],
+  "testInContainer": true
+}
