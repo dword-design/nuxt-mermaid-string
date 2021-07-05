@@ -6,7 +6,7 @@
     "nuxt"
   ],
   "repository": "dword-design/nuxt-mermaid-string",
-  "funding": "https://www.buymeacoffee.com/dword",
+  "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "main": "dist/index.js",
