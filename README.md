@@ -130,7 +130,7 @@ Hey, I am Sebastian Landwehr, a freelance web developer, and I love developing w
 
 Thanks a lot for your support! ❤️
 
-## See Also
+## See also
 
 * [vue-mermaid-string](https://github.com/dword-design/vue-mermaid-string): A Vue.js component that turns a Mermaid string into a diagram.
 * [nuxt-mail](https://github.com/dword-design/nuxt-mail): Adds email sending capability to a Nuxt.js app. Adds a server route, an injected variable, and uses nodemailer to send emails.
