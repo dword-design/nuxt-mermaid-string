@@ -1,3 +1,10 @@
+## [2.0.10](https://github.com/dword-design/nuxt-mermaid-string/compare/v2.0.9...v2.0.10) (2021-11-25)
+
+
+### Bug Fixes
+
+* remove client mode ([88df622](https://github.com/dword-design/nuxt-mermaid-string/commit/88df6225fbe08c0e7a669193ad2c3a7ca05be0be))
+
 ## [2.0.9](https://github.com/dword-design/nuxt-mermaid-string/compare/v2.0.8...v2.0.9) (2021-08-09)
 
 
