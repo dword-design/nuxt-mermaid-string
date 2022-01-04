@@ -1,3 +1,10 @@
+## [2.0.11](https://github.com/dword-design/nuxt-mermaid-string/compare/v2.0.10...v2.0.11) (2022-01-04)
+
+
+### Bug Fixes
+
+* update config files ([7969d53](https://github.com/dword-design/nuxt-mermaid-string/commit/7969d5397e139af47f7e65f61e9a65f77d8e378b))
+
 ## [2.0.10](https://github.com/dword-design/nuxt-mermaid-string/compare/v2.0.9...v2.0.10) (2021-11-25)
 
 
