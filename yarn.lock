@@ -14610,10 +14610,10 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-with-local-tmp-dir@^4.0.0:
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/with-local-tmp-dir/-/with-local-tmp-dir-4.0.11.tgz#d2c7c4603726a93dcf6a97a74a1b12e2d6b70fa3"
-  integrity sha512-ss1q0DhtshvkgR+ki78/WdbxA3MpXPZAVklfkW03C2SaCYe0XBGJgxdi9yk52c9529vrsrw16ORMOj3Io8T8Pw==
+with-local-tmp-dir@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/with-local-tmp-dir/-/with-local-tmp-dir-5.0.0.tgz#6565ee6e6bbf17f80d3def31f2b3404722fb0a9a"
+  integrity sha512-30Ppg9fPL/rrlh5PPOxqB0jYDztKrhD2K4HnVJaq99qHq5t5Dgi7SKWB1WvPvb33Rjg9KRtrrCn3jes5p8jooA==
   dependencies:
     "@dword-design/chdir" "^2.0.0"
     tmp-promise "^3.0.0"
