@@ -1,5 +1,5 @@
-import nuxtPushPlugins from 'nuxt-push-plugins'
+import { addPlugin, createResolver } from '@nuxt/kit'
 
-export default function () {
-  nuxtPushPlugins(this, require.resolve('./plugin'))
-}
+const resolver = createResolver(import.meta.url)
+
+export default () => addPlugin(resolver.resolve('./plugin'), { append: true })

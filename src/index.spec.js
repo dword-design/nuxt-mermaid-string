@@ -1,17 +1,18 @@
 import { endent } from '@dword-design/functions'
 import tester from '@dword-design/tester'
+import testerPluginNuxtConfig from '@dword-design/tester-plugin-nuxt-config'
 import testerPluginPuppeteer from '@dword-design/tester-plugin-puppeteer'
-import { outputFile } from 'fs-extra'
-import { Builder, Nuxt } from 'nuxt'
-import withLocalTmpDir from 'with-local-tmp-dir'
+
+import self from './index.js'
 
 export default tester(
   {
-    works() {
-      return withLocalTmpDir(async () => {
-        await outputFile(
-          'pages/index.vue',
-          endent`
+    works: {
+      config: {
+        modules: [self],
+      },
+      files: {
+        'pages/index.vue': endent`
           <template>
             <vue-mermaid-string class="foo" :value="diagram" />
           </template>
@@ -28,28 +29,17 @@ export default tester(
             },
           }
           </script>
-
-        `
-        )
-
-        const nuxt = new Nuxt({
-          createRequire: 'native',
-          dev: false,
-          modules: [require.resolve('.')],
-        })
-        await new Builder(nuxt).build()
-        try {
-          await nuxt.listen()
-          await this.page.goto('http://localhost:3000')
-          await this.page.waitForSelector('.foo')
-          expect(
-            await this.page.screenshot({ fullPage: true })
-          ).toMatchImageSnapshot(this)
-        } finally {
-          await nuxt.close()
-        }
-      })
+        `,
+      },
+      nuxtVersion: 3,
+      async test() {
+        await this.page.goto('http://localhost:3000')
+        await this.page.waitForSelector('.foo')
+        expect(
+          await this.page.screenshot({ fullPage: true })
+        ).toMatchImageSnapshot(this)
+      },
     },
   },
-  [testerPluginPuppeteer()]
+  [testerPluginPuppeteer(), testerPluginNuxtConfig()]
 )
