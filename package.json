@@ -9,6 +9,8 @@
   "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "type": "module",
+  "exports": "./dist/index.js",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -16,6 +18,7 @@
   "scripts": {
     "checkUnknownFiles": "base checkUnknownFiles",
     "commit": "base commit",
+    "depcheck": "base depcheck",
     "dev": "base dev",
     "lint": "base lint",
     "prepare": "base prepare",
@@ -26,20 +29,18 @@
   "dependencies": {
     "nuxt-push-plugins": "^2.0.0",
     "vue": "^2.6.12",
-    "vue-mermaid-string": "^2.0.0"
+    "vue-mermaid-string": "^4.0.1"
   },
   "devDependencies": {
-    "@dword-design/base": "^8.0.0",
+    "@dword-design/base": "^9.4.2",
     "@dword-design/functions": "^4.0.0",
-    "@dword-design/puppeteer": "^5.0.0",
-    "@dword-design/tester": "^2.0.0",
-    "@dword-design/tester-plugin-puppeteer": "^2.0.0",
-    "fs-extra": "^10.0.0",
-    "nuxt": "^2.15.3",
-    "with-local-tmp-dir": "^4.0.0"
+    "@dword-design/puppeteer": "^6.0.2",
+    "@dword-design/tester": "^2.0.12",
+    "@dword-design/tester-plugin-nuxt-config": "^1.1.11",
+    "@dword-design/tester-plugin-puppeteer": "^2.0.0"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "publishConfig": {
     "access": "public"
