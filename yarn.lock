@@ -1435,9 +1435,7 @@
     puppeteer "^10.0.0"
 
 "@dword-design/tester-plugin-puppeteer@^2.0.0":
-  version "2.1.21"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-puppeteer/-/tester-plugin-puppeteer-2.1.21.tgz#04329815ae9535427d14f8c09367e111bcbf33ff"
-  integrity sha512-plDPzE17m+VrcVy7Bc7odznEi+aI2tcbVq8Lrm5DMDdaPyBUMMga6j+qEq/SIUcp6QkmsThjg5jWOjYom63dzw==
+  version "2.1.44"
   dependencies:
     is-docker "^2.2.1"
     puppeteer-to-istanbul "github:dword-design/puppeteer-to-istanbul#fork"
